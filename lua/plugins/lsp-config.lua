@@ -25,6 +25,7 @@ return {
 			})
       lspconfig.ts_ls.setup({
 				capabilites = capabilities,
+        filetypes = { "typescript", "typescriptreact", "typescript.tsx"}
 			})
 			lspconfig.cssls.setup({
 				capabilities = capabilities,
