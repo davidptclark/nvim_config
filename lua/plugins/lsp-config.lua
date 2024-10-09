@@ -23,7 +23,7 @@ return {
 			lspconfig.gopls.setup({
 				capabilites = capabilities,
 			})
-      lspconfig.tsserver.setup({
+      lspconfig.ts_ls.setup({
 				capabilites = capabilities,
 			})
 			lspconfig.cssls.setup({
